@@ -5,3 +5,28 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Greeting.create!([{
+  salut: "hello you"
+},
+{
+  salut: "Good Evening"
+},
+{
+  salut: "konichiwa",
+},
+{
+  salut: "ohayo gozaimus"
+},
+{
+  salut: "guten morgen"
+},
+{
+  salut: "Buenas Noches"
+},
+{
+  salut: "Good Night"
+},
+{
+  salut: "Bonjour!"
+}
+])
